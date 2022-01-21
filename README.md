@@ -2,5 +2,5 @@
 Download selected file only from selected GitHub repository using raw data.
 
 # Instructions
-1. Change setting in config.js
+1. Change PATH_FILE and RAW_DATA in config.js to your preferred setting.
 2. Run with node app.js
