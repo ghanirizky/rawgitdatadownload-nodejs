@@ -3,7 +3,7 @@ const fs = require("fs");
 const {PATH_FILE, RAW_DATA} = require('./config')
 
 
-createFile = async(file_name, data) => {
+const createFile = async(file_name, data) => {
     const create = await fs.writeFile (`${PATH_FILE}/${file_name}`, data, function(err) {
         if (err) {
             console.log(`${file_name} failed...`);
@@ -16,7 +16,7 @@ createFile = async(file_name, data) => {
     return create
 }
 
-getData = () => {
+const getData = () => {
     let i = 1
     console.log(`Number of file downloaded : ${RAW_DATA.length}`);
     console.log(`File Path : ${PATH_FILE}`);

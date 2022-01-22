@@ -1,0 +1,22 @@
+{
+  "name": "rawgitdatadownload-nodejs",
+  "version": "1.0.0",
+  "description": "Download selected file only from selected GitHub repository using raw data using Node.js.",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghanirizky/rawgitdatadownload-nodejs.git"
+  },
+  "author": "ghani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghanirizky/rawgitdatadownload-nodejs/issues"
+  },
+  "homepage": "https://github.com/ghanirizky/rawgitdatadownload-nodejs#readme"
+}
